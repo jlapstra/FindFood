@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchList Component renders appropriately with restaurantList given 1`] = `
+<SearchList>
+  <div
+    className="SearchList"
+  >
+    <Search
+      search={[Function]}
+    >
+      <div
+        className="Search"
+      >
+        <Bootstrap(InputGroup)>
+          <InputGroup
+            bsPrefix="input-group"
+          >
+            <div
+              className="input-group"
+            >
+              <InputGroupPrepend>
+                <div
+                  className="input-group-prepend"
+                >
+                  <InputGroupText>
+                    <span
+                      className="input-group-text"
+                    >
+                      Please enter your desired city:
+                    </span>
+                  </InputGroupText>
+                </div>
+              </InputGroupPrepend>
+              <FormControl
+                id="input"
+                size="lg"
+              >
+                <input
+                  className="form-control form-control-lg"
+                  id="input"
+                />
+              </FormControl>
+            </div>
+          </InputGroup>
+        </Bootstrap(InputGroup)>
+        <br />
+        <Button
+          active={false}
+          disabled={false}
+          id="search"
+          onClick={[Function]}
+          type="button"
+          variant="success"
+        >
+          <button
+            className="btn btn-success"
+            disabled={false}
+            id="search"
+            onClick={[Function]}
+            type="button"
+          >
+            Search!
+          </button>
+        </Button>
+      </div>
+    </Search>
+    <Restaurant
+      address="1 Queen"
+      key="Jenna0"
+      name="Jenna"
+      price={2}
+    >
+      <div
+        className="Restaurant"
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      >
+        <Card
+          body={false}
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <div
+            className="card"
+            style={
+              Object {
+                "width": "18rem",
+              }
+            }
+          >
+            <CardImg
+              variant="top"
+            >
+              <img
+                className="card-img-top"
+              />
+            </CardImg>
+            <CardBody>
+              <div
+                className="card-body"
+              >
+                <CardTitle>
+                  <ForwardRef
+                    className="card-title"
+                  >
+                    <div
+                      className="card-title h5"
+                    >
+                      Jenna
+                    </div>
+                  </ForwardRef>
+                </CardTitle>
+                <CardText>
+                  <p
+                    className="card-text"
+                  >
+                    1 Queen
+                    2
+                  </p>
+                </CardText>
+                <Button
+                  active={false}
+                  disabled={false}
+                  type="button"
+                  variant="primary"
+                >
+                  <button
+                    className="btn btn-primary"
+                    disabled={false}
+                    type="button"
+                  >
+                    More Info
+                  </button>
+                </Button>
+              </div>
+            </CardBody>
+          </div>
+        </Card>
+      </div>
+    </Restaurant>
+    <Restaurant
+      address="3 Front"
+      key="Troy1"
+      name="Troy"
+      price={2}
+    >
+      <div
+        className="Restaurant"
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      >
+        <Card
+          body={false}
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <div
+            className="card"
+            style={
+              Object {
+                "width": "18rem",
+              }
+            }
+          >
+            <CardImg
+              variant="top"
+            >
+              <img
+                className="card-img-top"
+              />
+            </CardImg>
+            <CardBody>
+              <div
+                className="card-body"
+              >
+                <CardTitle>
+                  <ForwardRef
+                    className="card-title"
+                  >
+                    <div
+                      className="card-title h5"
+                    >
+                      Troy
+                    </div>
+                  </ForwardRef>
+                </CardTitle>
+                <CardText>
+                  <p
+                    className="card-text"
+                  >
+                    3 Front
+                    2
+                  </p>
+                </CardText>
+                <Button
+                  active={false}
+                  disabled={false}
+                  type="button"
+                  variant="primary"
+                >
+                  <button
+                    className="btn btn-primary"
+                    disabled={false}
+                    type="button"
+                  >
+                    More Info
+                  </button>
+                </Button>
+              </div>
+            </CardBody>
+          </div>
+        </Card>
+      </div>
+    </Restaurant>
+  </div>
+</SearchList>
+`;

@@ -23,7 +23,7 @@ class Search extends Component {
           <FormControl id="input" size="lg" />
         </InputGroup>
         <br />
-        <Button variant="success" onClick={this.search}>Search!</Button>
+        <Button id="search" variant="success" onClick={this.search}>Search!</Button>
       </div>
     );
   }
@@ -32,7 +32,7 @@ class Search extends Component {
   }
   search() {
     var u = 'https://opentable.herokuapp.com/api/restaurants';
-    var restaurantList = new Array();
+    var restaurantList = [];
     var that = this;
     console.log($('#input').val());
 

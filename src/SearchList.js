@@ -17,7 +17,7 @@ class SearchList extends Component {
   }
   render() {
     return (
-      <div className="SearchList">
+      <div className='SearchList'>
         <Search search={this.search} />
         { this.renderResults() }
       </div>
@@ -26,7 +26,7 @@ class SearchList extends Component {
   renderResults() {
     try {
       return this.state.restaurantList.map((r, index) => (
-        <Restaurant key={r} name={r.name} price={r.price} address={r.address} img={r.img} info={r.info}/>
+        <Restaurant key={r.name+index} name={r.name} price={r.price} address={r.address} img={r.img} info={r.info}/>
       ));
     }
     catch(err) {
